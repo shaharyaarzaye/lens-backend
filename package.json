@@ -1,0 +1,16 @@
+{
+  "name": "express-mongo-vercel",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
