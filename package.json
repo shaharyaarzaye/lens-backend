@@ -4,11 +4,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon api/index.js",
-    "build": "echo 'No build step required for Vercel'"
   },
-  "engines": {
-    "node": ">=18.x <=20.x"
-  },
+
   "dependencies": {
     "express": "^4.19.2",
     "mongoose": "^8.7.0",
@@ -26,3 +23,4 @@
     }
   }
 }
+
